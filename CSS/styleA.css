@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+  color: #ff00ff;
+}
+h3 {
+  text-align: center;
+}
+#mint {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#min {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+span {
+  font-weight: bold;
+  font-size: 30px;
+}
+img {
+  width: 150px;
+  border-radius: 10px;
+}
+#AA {
+  border: 2px solid #ff00d4;
+}
+#BB {
+  border: 2px solid #00ff00;
+}
