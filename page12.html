@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* Pseudo Element Selector */
+      span::before {
+        content: "hi..";
+      }
+      span::after {
+        /* content: url('./images/pik02.png'); */
+        content: "bye..";
+      }
+      p::first-letter {
+        font-size: 50px;
+      }
+      p::first-line {
+        font-weight: bold;
+      }
+      p::before {
+        content: "START--";
+      }
+    </style>
+  </head>
+  <body>
+    <span id="aa">This is a book</span>
+    <br />
+    <span id="bb">mint mint mint</span>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim ad fuga
+      reprehenderit nemo amet hic ipsam laudantium quod corporis suscipit
+      quisquam consectetur vitae eum quaerat molestiae, beatae quis praesentium
+      autem iste culpa accusamus ducimus eligendi eveniet? Numquam reiciendis
+      sunt quis cupiditate voluptatum id. Quasi odit quidem veniam consequatur
+      dolores quam!
+    </p>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim ad fuga
+      reprehenderit nemo amet hic ipsam laudantium quod corporis suscipit
+      quisquam consectetur vitae eum quaerat molestiae, beatae quis praesentium
+      autem iste culpa accusamus ducimus eligendi eveniet? Numquam reiciendis
+      sunt quis cupiditate voluptatum id. Quasi odit quidem veniam consequatur
+      dolores quam!
+    </p>
+  </body>
+</html>
